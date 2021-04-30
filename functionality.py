@@ -15,8 +15,8 @@ def drawRect(path, coordsXY: tuple, coordsX1Y1: tuple, color: tuple, thickness: 
 def detetctFirstAndLastPoints():
 	returnedDict = {}
 	try:
-		startPoint = 4#int(input("vortex eq gtnvum : "))
-		finishPoint = "cty"#input("vortex eq gnum : ")
+		startPoint = int(input("vortex eq gtnvum : ")) # orinak 4
+		finishPoint = input("vortex eq gnum : ") # orinak cty
 		finishPoint = finishPoint.upper()
 		for shopName in RD.shopsWithCoordinates1Stage.keys():
 			if finishPoint == shopName:
