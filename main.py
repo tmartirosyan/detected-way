@@ -31,7 +31,7 @@ for point in RD.shopsWithCoordinates1Stage.values():#range(len(point_rectangles_
     functional.drawRect(img,point[0],point[1],(255,0,0))
 
 
-# functional.imgShow("window",img)
+functional.imgShow("window",img)
 detetctedFirstAndLastPoints = functional.detetctFirstAndLastPoints()
 functional.drawRect(img,detetctedFirstAndLastPoints["start"][0],detetctedFirstAndLastPoints["start"][1],(0,0,255))
 functional.drawRect(img,detetctedFirstAndLastPoints["finish"][0],detetctedFirstAndLastPoints["finish"][1],(0,0,255))
