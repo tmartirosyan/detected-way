@@ -30,6 +30,6 @@ pointRectanglesWayFirstStage = [
 
 PATH = "1.png"
 RIO = {
-    # key: stage, value: shops directory
+    # key: stage, value: shops dictionary
     1: shopsWithCoordinates1Stage
 }
