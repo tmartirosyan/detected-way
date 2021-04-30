@@ -23,8 +23,8 @@ def detetctFirstAndLastPoints():
 				returnedDict["finishPointName"] = finishPoint
 				finishPoint = RD.shopsWithCoordinates1Stage[shopName]
 				break
-		else: raise Exception
-	except:
+		else: raise AttributeError
+	except AttributeError:
 		print("tvov nsheq vortex eq gtnvum, greq xanuti anun@ te vortex petq e gnaq")
 		detetctFirstAndLastPoints()
 	
