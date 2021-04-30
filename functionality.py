@@ -51,7 +51,7 @@ def detectWay(firstAndLastPoints: dict):
 	
 	if startPoint < finishPoint:
 		return [point for point in range(startPoint, finishPoint+1)]
-	elif startPoint == finishPoint: [startPoint]
+	elif startPoint == finishPoint: return [startPoint]
 	return [point for point in range(finishPoint, startPoint+1)]
 
 
